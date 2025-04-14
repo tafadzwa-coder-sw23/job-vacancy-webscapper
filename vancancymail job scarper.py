@@ -19,6 +19,7 @@ HEADERS = {'User-Agent': 'Mozilla/5.0'}
 OUTPUT_CSV = "scraped_jobs.csv"
 NUM_JOBS_TO_SCRAPE = 10
 
+# function
 def scrape_and_save_jobs(num_jobs=NUM_JOBS_TO_SCRAPE):
     try:
         logging.info(f"Starting job scrape for {num_jobs} jobs...")
